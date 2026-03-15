@@ -1,0 +1,31 @@
+{
+  "app_metadata": {
+    "version": "2.23",
+    "last_updated": "2026-03-15",
+    "intro_video": "https://link-to-video.com",
+    "campaign_info": "Campaign rules reference here"
+  },
+  "references": {
+    "common_armoury": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQb3liIIM23jKLtyad3h0Id1GpMcoiDZWJkjvS64Rix5co-IgVrNZ0WA89g64Vgkz70piDbZ4nW2eAp/pub?output=csv",
+    "swords_for_hire": "URL_HERE",
+    "rule_reference": "URL_HERE",
+    "rogue_warbands": "URL_HERE"
+  },
+  "factions": [
+    {
+      "id": "halflings",
+      "display_name": "Halflings",
+      "csv_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS7oVrCRkkJ0BQdXQBe29Td9MvNyayLGihp-SbNGcuLI4TRXambT9aKvO7ALcVBWtCSKAgo6KtEf4Sw/pub?output=csv"
+    },
+    {
+      "id": "imperials",
+      "display_name": "Imperials",
+      "csv_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRrdc3mCyZsD0mIu7TT-S26y6uIIlSJ6K5RaE7h8TwGi-OM5_tIo4fsSYWE53kTqwhL41GezgCihvcG/pub?output=csv"
+    },
+    {
+      "id": "ourks",
+      "display_name": "Ourks",
+      "csv_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRGzbNHL51coMdvcrfI5abBw9dFZ4c_O3AP-ihgqUIAOZHEUo7D3UDwf-YNjGEupUGblQ-fEw2XaOeo/pub?output=csv"
+    }
+  ]
+}

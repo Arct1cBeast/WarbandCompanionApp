@@ -1,0 +1,108 @@
+{
+  "faction_id": "halflings",
+  "document_type": "unit_list",
+  "units": [
+    {
+      "name": "Halfling Sheriff",
+      "cost": 80,
+      "class": "Commander",
+      "stats": {"ap": 4, "movement": 4, "bravery": 9, "hp": 10},
+      "attacks": [
+        {"name": "Furious Wallop", "cost": 2, "power": 8, "rule": "On Critical: Target -1 AP next activation (non-stacking)."},
+        {"name": "Hearty Stab", "cost": 1, "power": 5}
+      ],
+      "traits": ["Light Armour", "Make Orders"],
+      "special_rules": [
+        {"name": "Rousing Cheer", "description": "Characters with 'Take Orders' within 8” use the Sheriff’s Bravery (9)."}
+      ]
+    },
+    {
+      "name": "Halfling Battle Cook",
+      "cost": 80,
+      "class": "Mage",
+      "stats": {"ap": 3, "movement": 4, "bravery": 8, "hp": 9},
+      "attacks": [
+        {"name": "Spoon Whack", "cost": 2, "power": 5, "rule": "On Critical: Target -1 AP next activation (non-stacking)."}
+      ],
+      "traits": ["Make Orders"]
+    },
+    {
+      "name": "Halfling Militia",
+      "cost": 40,
+      "class": "Unit",
+      "stats": {"ap": 2, "movement": 4, "bravery": 7, "hp": 6},
+      "attacks": [
+        {"name": "Twhack", "cost": 2, "power": 6, "rule": "Critical Hit allows re-roll of 1 failed Hit."},
+        {"name": "Thrust", "cost": 1, "power": 4}
+      ],
+      "traits": ["Take Orders"]
+    },
+    {
+      "name": "Halfling Town Guard",
+      "cost": 70,
+      "class": "Elite",
+      "stats": {"ap": 3, "movement": 4, "bravery": 8, "hp": 7},
+      "attacks": [
+        {"name": "Determined Hack", "cost": 2, "power": 7, "rule": "Critical Hit breaks 1 Armour."},
+        {"name": "Chop", "cost": 1, "power": 4}
+      ],
+      "traits": ["Take Orders", "Heavy Armour"],
+      "special_rules": [
+        {"name": "Bodyguard", "description": "In base contact with a Commander, may intercept and defend hits intended for that Commander."}
+      ]
+    },
+    {
+      "name": "Halfling Thing Flinger",
+      "cost": 200,
+      "class": "Heavy",
+      "stats": {"ap": 3, "movement": 4, "bravery": 7, "hp": 20},
+      "attacks": [
+        {"name": "Trample", "cost": 3, "power": 4, "rule": "On Critical: Target is Prone and Flinger may move out of combat without penalty."},
+        {"name": "And...FIRE!", "cost": "Ranged", "power": 10, "rule": "20” range. Requires a Hard Feat to Shoot. Roll Random Payload table."}
+      ],
+      "traits": ["Flammable"],
+      "special_rules": [
+        {"name": "Crew", "description": "Militia in base contact may donate unspent AP to the Thing-Flinger."},
+        {
+          "name": "Random Payload",
+          "table": {
+            "1": "Unfortunate Crew: Place base-contact Militia at target. Militia takes D6 hits and is Prone.",
+            "2": "Rotten Veggies: Target and all within 3” treat terrain as Difficult this round.",
+            "3": "Knives and Forks: -2 Power, but ignores Armour.",
+            "4": "Farmyard Friends: All within 3” of target take D3 Hits.",
+            "5": "Honest Stone: +4 Power.",
+            "6": "Bomb Brew: Target and every Character within 3” become Prone."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Halfling Monster Hunter",
+      "cost": 60,
+      "class": "Irregular",
+      "stats": {"ap": 3, "movement": 4, "bravery": 8, "hp": 6},
+      "attacks": [
+        {"name": "Cunning Thrust", "cost": 2, "power": 6, "rule": "Re-roll all failed Hits against Monsters or Titans."},
+        {"name": "Lasso", "cost": 1, "type": "Ranged", "power": 3, "rule": "6” range. On Critical: Target immobilized (Easy Feat to escape)."}
+      ],
+      "traits": ["Dauntless"],
+      "special_rules": [
+        {"name": "Traps", "description": "Medium Feat to set trap. 2” radius. Failure to pass Medium Feat on entry = 6 Hits."},
+        {"name": "Dauntless", "description": "Immune to Fearsome effects from Monsters and Titans."}
+      ]
+    },
+    {
+      "name": "Troll Hound",
+      "cost": 35,
+      "class": "Beast",
+      "stats": {"ap": 2, "movement": 6, "bravery": 7, "hp": 6},
+      "attacks": [
+        {"name": "Bite", "cost": 1, "power": 5, "rule": "Critical Hits ignore Armour."}
+      ],
+      "traits": ["Agile", "Pack Hunter"],
+      "special_rules": [
+        {"name": "Cling On", "description": "After hit on Monster/Titan, auto-bites every time target activates until failed D6 roll."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "faction_id": "halflings",
+  "display_name": "Halflings",
+  "allies": [
+    "Imperials",
+    "Njorse",
+    "Bestiary"
+  ],
+  "special_rules": [
+    {
+      "name": "Settler Nation",
+      "description": "When constructing your Warband, you may also use Characters from the Imperial and Njorsvald (Coming Soon!) Factions."
+    },
+    {
+      "name": "Make/Take Orders",
+      "description": "If a Character has the Make Orders Trait, on an Easy Feat one of the following commands can be issued to friendly Characters with the Take Orders Trait within 12”. Upon issuing a command this Character's Activation ends and Activation passes to the Characters taking orders."
+    },
+    {
+      "name": "Order: As One!",
+      "description": "Up to three Characters of the same Class may Activate together. Any Attacks made must be against the same target and are rolled one after another."
+    },
+    {
+      "name": "Order: Stand Firm!",
+      "description": "Up to three Characters of the same Class automatically pass all Bravery Tests until the end of the Round."
+    }
+  ],
+}

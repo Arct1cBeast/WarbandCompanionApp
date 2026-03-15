@@ -1,0 +1,56 @@
+{
+  "faction_id": "halflings",
+  "document_type": "spells",
+  "spell_rules": "The effects of these Spells do not stack and are replaced if another Spell is cast upon the same Character.",
+  "spells": [
+    {
+      "name": "Hearty Veggie Soup",
+      "target_value": 14,
+      "range": 6,
+      "effect_description": "One friendly Character within 6\" regains 3 HP.",
+      "mechanics": {
+        "heal_amount": 3
+      }
+    },
+    {
+      "name": "Marvellous Mutton Stew",
+      "target_value": 16,
+      "range": 6,
+      "effect_description": "One friendly Character within 6\" may re-roll a single failed Leg It roll this Round.",
+      "mechanics": {
+        "reroll": "Leg It"
+      }
+    },
+    {
+      "name": "Bullox Burgers",
+      "target_value": 17,
+      "range": 6,
+      "effect_description": "One friendly Character within 6\" may re-roll all failed Defence rolls until its next Activation.",
+      "mechanics": {
+        "reroll": "Defence"
+      }
+    },
+    {
+      "name": "Cocklegriff Madras (with rice and naan)",
+      "target_value": 20,
+      "range": 6,
+      "effect_description": "One friendly Character within 6” gains the Fired Up Attack until the end of the Round.",
+      "granted_attack": {
+        "name": "Fired Up",
+        "cost_ap": 1,
+        "power": 8,
+        "special_rules": "+1 Power against Flammable targets"
+      }
+    },
+    {
+      "name": "Mystery Meat Surprise",
+      "target_value": 21,
+      "range": 6,
+      "effect_description": "Choose two different Spells from this list and apply them to the same Character.",
+      "mechanics": {
+        "multi_target": true,
+        "count": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "faction_id": "halflings",
+  "document_type": "armoury",
+  "items": [
+    {
+      "name": "Packed Lunch",
+      "type": "Gear",
+      "cost": 10,
+      "effect": "One use only. If consumed, a Character regains D6HP. A Character can use a Packed Lunch to heal a friendly Character in base contact.",
+      "modifiers": {
+        "uses": 1
+      },
+      "units": ["Halflings"]
+    },
+    {
+      "name": "Halfling Ranged Weapon",
+      "type": "Gear",
+      "cost": 15,
+      "effect": "If equipped, a Character may make this Attack: (Ranged) Shot: Power 5, 12” range.",
+      "attack": {
+        "name": "Shot",
+        "type": "Ranged",
+        "range": 12,
+        "power": 5
+      },
+      "units": ["Halflings"]
+    },
+    {
+      "name": "Town Banner",
+      "type": "Gear",
+      "cost": 15,
+      "effect": "Whilst held by a friendly Character, friendly Characters within 12” may re-roll failed Bravery Tests.",
+      "units": ["Halflings"]
+    },
+    {
+      "name": "Halfling Mount",
+      "type": "Gear",
+      "cost": 30,
+      "effect": "May only be used by Sheriffs, Militia and Town Guard. If mounted, a Character gains +5HP and +4 Movement. They are Agile (see Bestiary rules) and now have a 40mm base size.",
+      "modifiers": {
+        "health": 5,
+        "movement": 4,
+        "base_size": "40mm"
+      },
+      "keywords": ["Agile"],
+      "units": ["Sheriff", "Militia", "Town Guard"]
+    },
+    {
+      "name": "Potbelly Cauldron",
+      "type": "Gear",
+      "cost": 30,
+      "effect": "May only be equipped to a Battle Cook. The Battle Cook gains +1 Armour. At the start of the Round, roll a D6. On a success, the Cauldron generates one Arcanite Token. The Battle Cook will also have a 40mm base size.",
+      "modifiers": {
+        "armour": 1,
+        "base_size": "40mm"
+      },
+      "units": ["Battle Cook"]
+    },
+    {
+      "name": "Ranger Cloak",
+      "type": "Gear",
+      "cost": 10,
+      "effect": "If equipped, whilst within 2” of a terrain feature any Ranged Attacks targeted at this Character are at +1 Feat difficulty.",
+      "units": ["Halflings"]
+    }
+  ]
+}

@@ -15,10 +15,12 @@
     {
       "id": "halflings",
       "display_name": "Halflings",
-      "rules_link": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsRules",
-      "armoury_link": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsArmoury",
-      "spells_link": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsSpells",
-      "units_link": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsUnits"
+      "files": {
+          "rules": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsRules",
+          "armoury": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsArmoury",
+          "spells": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsSpells",
+          "units": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsUnits"
+  }
     },
     {
       "id": "imperials",

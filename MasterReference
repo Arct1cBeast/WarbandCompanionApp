@@ -3,12 +3,13 @@
     "version": "2.23",
     "last_updated": "2026-03-15",
     "intro_video": "https://youtu.be/II-zih85MOs?si=6M1xdb17xrd_8h0d",
-    "campaign_info": "URL_HERE"
+
   },
   "global_references": {
           "common_armoury": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/CommonArmoury",
           "swords_for_hire": "URL_HERE",
           "rule_reference": "URL_HERE",
+          "campaign_info": "URL_HERE",
           "rogue_warbands": "URL_HERE"
   },
   "factions": [

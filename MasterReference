@@ -5,7 +5,7 @@
     "intro_video": "https://youtu.be/II-zih85MOs?si=6M1xdb17xrd_8h0d",
     "campaign_info": "URL_HERE"
   },
-  "references": {
+  "global_references": {
       "files": {
           "common_armoury": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/CommonArmoury",
           "swords_for_hire": "URL_HERE",

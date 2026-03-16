@@ -6,6 +6,7 @@
       "name": "Halfling Sheriff",
       "cost": 80,
       "class": "Commander",
+      "image": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/Unit%20Images/MiniSilhouette.png",
       "stats": {"ap": 4, "movement": 4, "bravery": 9, "hp": 10},
       "attacks": [
         {"name": "Furious Wallop", "cost": 2, "power": 8, "rule": "On Critical: Target -1 AP next activation (non-stacking)."},

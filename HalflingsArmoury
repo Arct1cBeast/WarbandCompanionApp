@@ -7,9 +7,7 @@
       "type": "Gear",
       "cost": 10,
       "effect": "One use only. If consumed, a Character regains D6HP. A Character can use a Packed Lunch to heal a friendly Character in base contact.",
-      "modifiers": {
-        "uses": 1
-      },
+      "uses": 1,
       "units": ["Halflings"]
     },
     {

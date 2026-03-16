@@ -23,12 +23,18 @@
     {
       "id": "imperials",
       "display_name": "Imperials",
-      "csv_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRrdc3mCyZsD0mIu7TT-S26y6uIIlSJ6K5RaE7h8TwGi-OM5_tIo4fsSYWE53kTqwhL41GezgCihvcG/pub?output=csv"
+      "rules_link": "URL_HERE",
+      "armoury_link": "URL_HERE",
+      "spells_link": "URL_HERE",
+      "units_link": "URL_HERE"
     },
     {
       "id": "ourks",
       "display_name": "Ourks",
-      "csv_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRGzbNHL51coMdvcrfI5abBw9dFZ4c_O3AP-ihgqUIAOZHEUo7D3UDwf-YNjGEupUGblQ-fEw2XaOeo/pub?output=csv"
+      "rules_link": "URL_HERE",
+      "armoury_link": "URL_HERE",
+      "spells_link": "URL_HERE",
+      "units_link": "URL_HERE"
     }
   ]
 }

@@ -1,0 +1,28 @@
+TEMPLATES
+
+Faction on master sheet
+      "id": "code for faction name",
+      "display_name": "proper faction name",
+      "rules_link": "URL_HERE",
+      "armoury_JSON_URL": "URL_HERE",
+      "spells_link": "URL_HERE",
+      "units_link": "URL_HERE"
+
+Items
+      "name": "name of the item",
+      "type": "Item (consumable) or Equipment (consistent effect)",
+      "cost": numerical value of gold points this item will add to your warband total, 
+      "uses": numerical value of how many times something can be used before graying in play mode,
+      "effect": "text descriptor of what it does",
+      "keywords": ["Name of keyword added"],
+      "modifiers": {
+        "name of stat changed FOR THIS UNIT ONLY": 2
+      },
+      "attack": {
+        "name": "name of new attack",
+        "type": "Ranged or Melee",
+        "ap_cost": numerical value of AP needed if melee attack,
+        "range": numerical value can be ignored if melee,
+        "power": numerical value of power for attack
+      },
+      "units": "who can use it ALL - Everyone FACTION - just that faction UNIT NAME - just that unit"

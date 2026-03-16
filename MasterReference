@@ -20,7 +20,7 @@
           "armoury": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsArmoury",
           "spells": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsSpells",
           "units": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsUnits"
-  }
+      }
     },
     {
       "id": "imperials",
@@ -33,10 +33,12 @@
     {
       "id": "ourks",
       "display_name": "Ourks",
-      "rules_link": "URL_HERE",
-      "armoury_link": "URL_HERE",
-      "spells_link": "URL_HERE",
-      "units_link": "URL_HERE"
+      "files": { 
+          "rules": "URL_HERE",
+          "armoury": "URL_HERE",
+          "spells": "URL_HERE",
+          "units": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/OurksUnits"
+      }
     }
   ]
 }

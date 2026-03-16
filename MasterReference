@@ -2,11 +2,11 @@
   "app_metadata": {
     "version": "2.23",
     "last_updated": "2026-03-15",
-    "intro_video": "https://link-to-video.com",
-    "campaign_info": "Campaign rules reference here"
+    "intro_video": "https://youtu.be/II-zih85MOs?si=6M1xdb17xrd_8h0d",
+    "campaign_info": "URL_HERE"
   },
   "references": {
-    "common_armoury": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQb3liIIM23jKLtyad3h0Id1GpMcoiDZWJkjvS64Rix5co-IgVrNZ0WA89g64Vgkz70piDbZ4nW2eAp/pub?output=csv",
+    "common_armoury": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/CommonArmoury",
     "swords_for_hire": "URL_HERE",
     "rule_reference": "URL_HERE",
     "rogue_warbands": "URL_HERE"
@@ -15,7 +15,10 @@
     {
       "id": "halflings",
       "display_name": "Halflings",
-      "csv_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS7oVrCRkkJ0BQdXQBe29Td9MvNyayLGihp-SbNGcuLI4TRXambT9aKvO7ALcVBWtCSKAgo6KtEf4Sw/pub?output=csv"
+      "rules_link": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsRules",
+      "armoury_link": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsArmoury",
+      "spells_link": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsSpells",
+      "units_link": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/HalflingsUnits"
     },
     {
       "id": "imperials",

@@ -6,10 +6,12 @@
     "campaign_info": "URL_HERE"
   },
   "references": {
-    "common_armoury": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/CommonArmoury",
-    "swords_for_hire": "URL_HERE",
-    "rule_reference": "URL_HERE",
-    "rogue_warbands": "URL_HERE"
+      "files": {
+          "common_armoury": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/CommonArmoury",
+          "swords_for_hire": "URL_HERE",
+          "rule_reference": "URL_HERE",
+          "rogue_warbands": "URL_HERE"
+      }
   },
   "factions": [
     {
@@ -25,10 +27,12 @@
     {
       "id": "imperials",
       "display_name": "Imperials",
-      "rules_link": "URL_HERE",
-      "armoury_link": "URL_HERE",
-      "spells_link": "URL_HERE",
-      "units_link": "URL_HERE"
+      "files": { 
+          "rules": "URL_HERE",
+          "armoury": "URL_HERE",
+          "spells": "URL_HERE",
+          "units": "URL_HERE"
+      }
     },
     {
       "id": "ourks",

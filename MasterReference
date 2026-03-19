@@ -27,7 +27,7 @@
       "id": "imperials",
       "display_name": "Imperials",
       "files": { 
-          "rules": "URL_HERE",
+          "rules": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/ImperialsRules",
           "armoury": "URL_HERE",
           "spells": "URL_HERE",
           "units": "URL_HERE"

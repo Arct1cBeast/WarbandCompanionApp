@@ -2,9 +2,9 @@
   "faction_id": "halflings",
   "display_name": "Halflings",
   "allies": [
-    "Imperials",
-    "Njorse",
-    "Bestiary"
+    "imperials",
+    "njorse",
+    "bestiary"
   ],
   "special_rules": [
     {

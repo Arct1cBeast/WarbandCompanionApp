@@ -1,0 +1,100 @@
+{
+  "faction_id": "imperials",
+  "document_type": "unit_list",
+  "units": [
+    {
+      "name": "Imperial Captain",
+      "cost": 80,
+      "class": "Commander",
+      "image": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/Unit%20Images/MiniSilhouette.png",
+      "stats": {"ap": 4, "movement": 4, "bravery": 9, "hp": 10},
+      "attacks": [
+        {"name": "Riposte", "cost": 2, "power": 8, "rule": "If this Attack removes HP, the next Character who attempts to Attack the Captain must pass an Easy Feat or lose 1HP."},
+        {"name": "Slash", "cost": 1, "power": 5, "rule": "Critical Hits ignore Armour."}
+      ],
+      "traits": ["Light Armour", "Make Orders"],
+      "special_rules": [
+        {"name": "Leaders of Men", "description": "All Characters with the Take Orders Trait within 10\" of the Captain use the Captain's Bravery stat."}
+      ]
+    },
+    {
+      "name": "Imperial Tinkerer",
+      "cost": 80,
+      "class": "Mage",
+      "stats": {"ap": 3, "movement": 4, "bravery": 8, "hp": 9},
+      "attacks": [
+        {"name": "Spanner Whack", "cost": 2, "power": 5}
+      ],
+      "traits": [],
+      "special_rules": [
+        {"name": "Contraption Trunk", "description": "A 30mm base character with no stats. May move 6\" when Tinkerer activates. Tinkerer must be in base contact to cast spells."}
+      ]
+    },
+    {
+      "name": "Imperial Trooper",
+      "cost": 40,
+      "class": "Unit",
+      "stats": {"ap": 2, "movement": 4, "bravery": 7, "hp": 6},
+      "attacks": [
+        {"name": "Heavy Strike", "cost": 2, "power": 6, "rule": "A Critical Hit allows the player to re-roll 1 failed Hit."},
+        {"name": "Thrust", "cost": 1, "power": 4}
+      ],
+      "traits": ["Take Orders"]
+    },
+    {
+      "name": "Imperial Dragoon",
+      "cost": 65,
+      "class": "Elite",
+      "stats": {"ap": 3, "movement": 4, "bravery": 8, "hp": 7},
+      "attacks": [
+        {"name": "Keen Slice", "cost": 2, "power": 7, "rule": "A Critical Hit allows the player to re-roll 1 failed Hit."},
+        {"name": "Downswing", "cost": 1, "power": 4, "rule": "If mounted, re-roll all failed Hits against Targets on 30mm bases."}
+      ],
+      "traits": ["Take Orders", "Light Armour"],
+      "special_rules": [
+        {"name": "Mounted Specialist", "description": "If mounted, gain +1 Power on all Attacks if they Charge this Activation."}
+      ]
+    },
+    {
+      "name": "Imperial Ogre",
+      "cost": 160,
+      "class": "Heavy",
+      "stats": {"ap": 5, "movement": 4, "bravery": 8, "hp": 16},
+      "attacks": [
+        {"name": "Clobber", "cost": 2, "power": 8, "rule": "On Critical: if target is on 30/40mm base, it becomes Prone."},
+        {"name": "Big Boot", "cost": 1, "power": 5, "rule": "+2 Power if the target is Prone."},
+        {"name": "Volley Gun Shot", "cost": "Ranged", "power": 6, "rule": "16\" range. Requires Hard Feat. Targets all within 2\" of a line to target. Failures > Successes = wielder takes D3 Hits (ignore armour)."}
+      ],
+      "traits": ["Take Orders"],
+      "special_rules": [
+        {"name": "Volley Gun Upgrade", "description": "May be equipped for an extra 40GP to enable the Volley Gun Shot attack."}
+      ]
+    },
+    {
+      "name": "Imperial Arclancer",
+      "cost": 60,
+      "class": "Irregular",
+      "stats": {"ap": 3, "movement": 4, "bravery": 8, "hp": 6},
+      "attacks": [
+        {"name": "Arclance", "cost": 1, "power": 6, "rule": "Failed Hits against target are dealt as Hits to an enemy Character within 3\" of the target."}
+      ],
+      "traits": ["Take Orders"],
+      "special_rules": [
+        {"name": "Arclance Overload", "description": "Spend an Arcanite Token to add +2 Power to all Attacks this Activation, but the Arclancer takes D3 Hits."}
+      ]
+    },
+    {
+      "name": "Ammo Monkey",
+      "cost": 35,
+      "class": "Beast",
+      "stats": {"ap": 2, "movement": 5, "bravery": 5, "hp": 4},
+      "attacks": [
+        {"name": "Bite", "cost": 1, "power": 3}
+      ],
+      "traits": [],
+      "special_rules": [
+        {"name": "Reloader", "description": "In base contact with a friendly Arcloque-armed character, that character may fire twice in an Activation (once per round)."}
+      ]
+    }
+  ]
+}

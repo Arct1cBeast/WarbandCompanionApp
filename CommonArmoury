@@ -8,21 +8,21 @@
       "cost": 10,
       "uses": 1,
       "effect": "One use only. Choose: +1AP for activation, add extra D6 to a roll, allow another Spell, or re-roll a D6.",
-      "units": "All"
+      "units": "all"
     },
     {
       "name": "Shield",
       "type": "Equipment",
       "cost": 15,
       "effect": "Character may re-roll one failed Defence Roll per Round.",
-      "units": "All"
+      "units": "all"
     },
     {
       "name": "Spear",
       "type": "Equipment",
       "cost": 10,
       "effect": "Melee Attacks up to 2” away. Can attack over friendly Characters.",
-      "units": "All"
+      "units": "all"
     },
     {
       "name": "Torch",
@@ -30,7 +30,7 @@
       "cost": 10,
       "effect": "Fearsome to Beasts/Monsters. +1 Power vs Flammable. Enemy Ranged Attacks vs this Character re-roll failures.",
       "keywords": ["Fearsome"],
-      "units": "All"
+      "units": "all"
     },
     {
       "name": "Two Handed Weapon",
@@ -40,14 +40,14 @@
         "power": 2
       },
       "effect": "+2 Power for Melee Attacks. Own Critical Defends are discarded as failures.",
-      "units": "All"
+      "units": "all"
     },
     {
       "name": "Dual Weapons",
       "type": "Equipment",
       "cost": 10,
       "effect": "Re-roll every 1 when making a Melee Attack.",
-      "units": "All"
+      "units": "all"
     },
     {
       "name": "Light Armour",
@@ -57,7 +57,7 @@
         "armour": 1
       },
       "effect": "Character gains +1 Armour. Does not stack.",
-      "units": "All"
+      "units": "all"
     },
     {
       "name": "Heavy Armour",
@@ -68,7 +68,7 @@
         "leg_it_difficulty": 1
       },
       "effect": "Character gains +2 Armour. Does not stack. Leg It rolls are at +1 difficulty.",
-      "units": "All"
+      "units": "all"
     }
   ]
 }

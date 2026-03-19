@@ -27,10 +27,10 @@
       "id": "imperials",
       "display_name": "Imperials",
       "files": { 
-          "rules": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/ImperialsRules",
+          "rules": "URL_HERE",
           "armoury": "URL_HERE",
           "spells": "URL_HERE",
-          "units": "URL_HERE"
+          "units": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/ImperialsUnits"
       }
     },
     {

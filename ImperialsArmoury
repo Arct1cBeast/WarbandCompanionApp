@@ -1,0 +1,84 @@
+{
+  "faction_id": "imperial",
+  "document_type": "armoury",
+  "items": [
+    {
+      "name": "Medical Kit",
+      "type": "Gear",
+      "cost": 10,
+      "effect": "One use only. If used, a Character regains D6HP. A Character can use a Medical Kit to heal a friendly Character in base contact.",
+      "uses": 1,
+      "units": ["all"]
+    },
+    {
+      "name": "Imperial Crossbow",
+      "type": "Gear",
+      "cost": 15,
+      "effect": "If equipped, a Character may make this Attack: (Ranged) Shot: Power 5, 16” range.",
+      "attack": {
+        "name": "Shot",
+        "type": "Ranged",
+        "range": 16,
+        "power": 5
+      },
+      "units": ["all"]
+    },
+    {
+      "name": "Imperial Gryphon",
+      "type": "Gear",
+      "cost": 15,
+      "effect": "Whilst held by a friendly Character, friendly Characters within 12” may re-roll failed Bravery Tests.",
+      "units": ["all"]
+    },
+    {
+      "name": "Imperial Mount",
+      "type": "Gear",
+      "cost": 30,
+      "effect": "May only be used by Captains, Troopers and Dragoons. If mounted, a Character gains +5HP and +4 Movement. They are Agile (see Bestiary rules) and now have a 50mm base size.",
+      "modifiers": {
+        "health": 5,
+        "movement": 4,
+        "base_size": "50mm"
+      },
+      "keywords": ["Agile"],
+      "units": ["captain", "trooper", "dragoon"]
+    },
+    {
+      "name": "Arcloque Rifle",
+      "type": "Gear",
+      "cost": 20,
+      "effect": "If equipped, a Character may make this Attack: (Ranged) Shot: Power 8, 20” range. This Attack may only be made once per Activation. If there are more Failures than Successes when rolling to Hit, the wielder takes 1 Hit that ignores Armour.",
+      "attack": {
+        "name": "Shot",
+        "type": "Ranged",
+        "range": 20,
+        "power": 8
+      },
+      "units": ["all"]
+    },
+    {
+      "name": "Arcloque Pistol",
+      "type": "Gear",
+      "cost": 15,
+      "effect": "May only be given to Captains, Tinkerers and Dragoons. If equipped, a Character may make this Attack: (Ranged) Shot: Power 7, 8” range. This Attack may only be made once per Arcloque Pistol per Activation. If there are more Failures than Successes when rolling to Hit, the wielder takes 1 Hit that ignores Armour.",
+      "attack": {
+        "name": "Shot",
+        "type": "Ranged",
+        "range": 8,
+        "power": 7
+      },
+      "units": ["captain", "tinkerer", "dragoon"]
+    },
+    {
+      "name": "Sergeant's Chevrons",
+      "type": "Gear",
+      "cost": 10,
+      "effect": "May only be equipped to a Trooper. They gain +1 Bravery and are given the Make Orders Trait. If the Sergeant Takes an Order from a Captain, they may make the same Order themselves in the same Activation. They can never Take Orders from another Sergeant.",
+      "modifiers": {
+        "bravery": 1
+      },
+      "traits": ["Make Orders"],
+      "units": ["trooper"]
+    }
+  ]
+}

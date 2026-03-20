@@ -1,0 +1,42 @@
+[
+  {
+    "trait": "Agile",
+    "effect": "This Character is particularly nimble and may re-roll a single failed Leg It roll per Round."
+  },
+  {
+    "trait": "Death Throes",
+    "effect": "A creature is at its most dangerous when it is mortally wounded. When a Character with this Trait is reduced to 20% of its HP or less, they may re-roll one D6 per Activation."
+  },
+  {
+    "trait": "Dwindling Strength",
+    "effect": "If a Monster loses half of their original HP, they also lose D3 of their total AP. Each time a Titan loses a quarter of its original HP, their total AP is reduced by D3. These effects are reversed if the Character regains lost HP."
+  },
+  {
+    "trait": "Fearsome",
+    "effect": "If this Character moves within 3” of an enemy Character on a smaller base size, the enemy Character must take a Bravery Test. If they pass, this Trait has no more effect on them."
+  },
+  {
+    "trait": "Flammable",
+    "effect": "This Character is vulnerable to fire. Certain Attacks, Equipment and Spells may cause additional effects to Characters with this Trait."
+  },
+  {
+    "trait": "Fly",
+    "effect": "This Character may move over Terrain features unhindered."
+  },
+  {
+    "trait": "Gobble",
+    "effect": "Monsters may Gobble any Character on a 30mm base; Titans may Gobble 30mm or 40mm bases. This is a Medium Feat. If successful, the target takes D6 Hits and is removed from the board. To escape, the target must pass a Medium Feat on their next Activation. Failure results in D6 Hits and an increased difficulty for the next attempt (+1). If the target is Knocked Out or fails a Legendary Feat to escape, they are removed from the game and the attacker regains D6 HP."
+  },
+  {
+    "trait": "Monstrous Mount",
+    "effect": "Riders count as being in Cover and share the mount's base and movement. They are targeted separately. If the mount is Knocked Out, the rider takes D6 Hits and becomes Prone. If the rider is Knocked Out, the mount must take a Bravery Test."
+  },
+  {
+    "trait": "Pack Hunter",
+    "effect": "Up to three of the same Character with this Trait may be Activated at the same time. They may re-roll a single failed Hit each if they use the same Attack against the same target."
+  },
+  {
+    "trait": "Split Activation",
+    "effect": "This Character can spend AP across multiple Activations in a Round. Free movement is only allowed once per Round; subsequent moves must use Leg It rolls, with difficulty progression resetting each Activation."
+  }
+]

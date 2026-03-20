@@ -10,7 +10,8 @@
           "swords_for_hire": "URL_HERE",
           "rule_reference": "URL_HERE",
           "campaign_info": "URL_HERE",
-          "rogue_warbands": "URL_HERE"
+          "rogue_warbands": "URL_HERE",
+          "common_traits": "https://raw.githubusercontent.com/Arct1cBeast/WarbandCompanionApp/refs/heads/main/CommonTraits"
   },
   "factions": [
     {

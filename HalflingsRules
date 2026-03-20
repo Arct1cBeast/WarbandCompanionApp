@@ -24,4 +24,14 @@
       "description": "Up to three Characters of the same Class automatically pass all Bravery Tests until the end of the Round."
     }
   ],
+  "traits": [
+    {
+      "name": "Make Orders",
+      "description": "If a Character has the Make Orders Trait, on an Easy Feat one of the faction Orders can be issued to friendly Characters with the Take Orders Trait within 12”. Upon issuing a command this Character's Activation ends and Activation passes to the Characters taking orders"
+    },
+    {
+      "name": "Take Orders",
+      "description": "Characters with this trait may be issued commands by a friendly Character with the Make Orders trait within 12”."
+    }
+  ]
 }
